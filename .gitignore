@@ -1,0 +1,14 @@
+# 1. Automatische Backups von KiCad ignorieren
+kicad/*-backups/
+kicad/*.kicad_sch-bak
+kicad/*.kicad_pcb-bak
+
+# 2. Lokale Ansichts- und Sperrdateien ignorieren (ändern sich ständig)
+kicad/*.kicad_prl
+kicad/~*.lck
+kicad/fp-info-cache
+
+# 3. Fertigungsdaten (Gerber, Bohrdaten, ZIPs) ignorieren
+# (Diese Daten können jederzeit wieder aus KiCad exportiert werden)
+kicad/manufacturing/
+
