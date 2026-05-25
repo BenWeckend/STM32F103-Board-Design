@@ -1,14 +1,45 @@
-# 1. Automatische Backups von KiCad ignorieren
+# Automatische Backups von KiCad ignorieren
 kicad/*-backups/
 kicad/*.kicad_sch-bak
 kicad/*.kicad_pcb-bak
 
-# 2. Lokale Ansichts- und Sperrdateien ignorieren (ändern sich ständig)
+# Lokale Ansichts- und Sperrdateien ignorieren (ändern sich ständig)
 kicad/*.kicad_prl
 kicad/~*.lck
 kicad/fp-info-cache
 
-# 3. Fertigungsdaten (Gerber, Bohrdaten, ZIPs) ignorieren
+# Fertigungsdaten (Gerber, Bohrdaten, ZIPs) ignorieren
 # (Diese Daten können jederzeit wieder aus KiCad exportiert werden)
 kicad/manufacturing/
+
+# SvelteKit & Frontend
+node_modules/
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# OS & Editoren
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Rust & Tauri
+# Ignoriert die kompilierten Rust-Binärdateien und Abhängigkeiten
+src-tauri/target/
+
+# Temporäre Tauri-Build-Dateien
+src-tauri/gen/
+
+# Rust-Absturzberichte
+src-tauri/*.bk
 
