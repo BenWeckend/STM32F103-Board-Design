@@ -53,7 +53,6 @@ Das Repository enthält:
 | `kicad/`               | Schaltplan, PCB-Layout und Fertigungsdaten |
 | `firmware/`            | STM32CubeIDE-Projekt                       |
 | `tauri-app/`           | Desktop-Anwendung (Rust + Frontend)        |
-| `kicad/manufacturing/` | Gerber-Dateien, BOM und Produktionsdaten   |
 
 ---
 
@@ -130,26 +129,3 @@ cd tauri-app
 npm install
 npm run tauri dev
 ```
-
----
-
-## Fertigung
-
-### BOM
-
-* [`kicad/manufacturing/PCB Design Übung.csv`](kicad/manufacturing/PCB%20Design%20Übung.csv)
-
-### Produktionsdaten
-
-Im Verzeichnis:
-
-```text
-kicad/manufacturing/
-```
-
-enthalten:
-
-* Gerber-Dateien
-* Bohrdaten (Drill Files)
-* Pick-and-Place Daten (falls vorhanden)
-* Stückliste (BOM)
