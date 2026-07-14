@@ -86,46 +86,5 @@ Das Repository enthält:
 * ST-Link kompatibel
 * STM32CubeProgrammer kompatibel
 
----
-
-## Firmware entwickeln
-
-### STM32CubeIDE
-
-Projekt öffnen:
-
-```bash
-firmware/
-```
-
-Build innerhalb von STM32CubeIDE:
-
-```text
-Project → Build
-```
-
-Flashen:
-
-```bash
-st-flash write firmware.bin 0x08000000
-```
-
-Alternativ über STM32CubeProgrammer oder ST-Link.
-
----
-
-## Tauri Desktop App
-
-Voraussetzungen:
-
-* Node.js (LTS)
-* npm oder yarn
-* Rust Toolchain
-
-Starten der Entwicklungsumgebung:
-
-```bash
-cd tauri-app
-npm install
 npm run tauri dev
 ```
