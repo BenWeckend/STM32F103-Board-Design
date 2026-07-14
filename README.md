@@ -2,7 +2,7 @@
 
 ## Überblick
 
-Hardware-Referenzdesign und Firmware für ein Entwicklungsboard auf Basis des **STM32F103C8T6** mit CAN, USB, I²C (BME280) und weiterer Peripherie.
+Hardware-Referenzdesign und Firmware für ein Übungs-Entwicklungsboard auf Basis des **STM32F103C8T6** mit CAN, USB, I²C (BME280) und weiterer Peripherie.
 
 Das Repository enthält:
 
