@@ -85,6 +85,3 @@ Das Repository enthält:
 * SWD Header
 * ST-Link kompatibel
 * STM32CubeProgrammer kompatibel
-
-npm run tauri dev
-```
